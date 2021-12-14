@@ -17,4 +17,4 @@ Users should be able to:
 - **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
 
 
-## [DEMO](http://)
+## [DEMO](https://friendly-mccarthy-0a49a6.netlify.app/)
