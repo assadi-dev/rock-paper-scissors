@@ -4,7 +4,7 @@ Réalistion du challenge création d'un jeu papier pierre feuille ciseaux en jav
 
 ## Preview
 
-![Design preview ](./public/design/desktop-preview.jpg)
+![Design preview Rock, Paper, Scissors Challenge](./public/design/desktop-preview.jpg)
 
 
 ### The challenge
