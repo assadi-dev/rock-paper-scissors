@@ -230,7 +230,7 @@ const Result = () => {
         <ResultContainer>
           <Col>
             <div>
-              <Title> You picked {ready} </Title>{" "}
+              <Title> You picked </Title>{" "}
             </div>{" "}
             <Button
               color={state.player.color}
