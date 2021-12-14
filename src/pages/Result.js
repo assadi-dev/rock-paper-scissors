@@ -281,19 +281,17 @@ const Result = () => {
         </ResultContainer>{" "}
       </ResultSection>{" "}
       <MobilZoneAnonce>
-        {" "}
         {ready >= 4 && (
-          <TextAnnonce>
-            {" "}
-            {state.result === "win" && "You win"}{" "}
-            {state.result === "lose" && "You lose"}{" "}
-            {state.result === "draw" && "You draw"}{" "}
-          </TextAnnonce>
-        )}{" "}
-        {countdown === 0 && (
-          <PlayAgainButton to="/"> Play again </PlayAgainButton>
-        )}{" "}
-      </MobilZoneAnonce>{" "}
+          <>
+            <TextAnnonce>
+              {state.result === "win" && "You win"}
+              {state.result === "lose" && "You lose"}
+              {state.result === "draw" && "You draw"}
+            </TextAnnonce>
+            <PlayAgainButton to="/"> Play again </PlayAgainButton>
+          </>
+        )}
+      </MobilZoneAnonce>
     </>
   );
 };
