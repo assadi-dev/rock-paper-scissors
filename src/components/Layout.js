@@ -130,6 +130,9 @@ const MobileCloseButton = styled.button`
   :active {
     transform: scale(1.2);
   }
+  @media screen and (min-width: 550px) {
+    display: none;
+  }
 `;
 
 const Layout = () => {
